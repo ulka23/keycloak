@@ -8,6 +8,9 @@ cache:
 before_cache:
   - rm -rf $HOME/.m2/repository/org/keycloak
 
+os: linux
+arch: ppc64le
+
 env:
   global:
     - MAVEN_SKIP_RC=true
