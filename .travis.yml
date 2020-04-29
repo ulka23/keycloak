@@ -52,6 +52,7 @@ before_script:
 
 addon:
   apt: maven
+  version: 3.5.4
 
 script: 
   - ./travis-run-tests.sh $TESTS
